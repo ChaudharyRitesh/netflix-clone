@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { BellIcon, SearchIcon } from "@heroicons/react/solid";
 import Link from "next/link";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const header = () => {
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
